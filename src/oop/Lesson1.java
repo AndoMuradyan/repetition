@@ -1,18 +1,18 @@
 package oop;
 
 import oop.model.Car;
-import oop.model.Human;
+import oop.model.Human1;
 
 public class Lesson1 {
     public static void main(String[] args) {
-        Human human = new Human();
+        Human1 human = new Human1();
         human.firstName = "Ando";
         human.lastName = "Muradyan";
         human.year = 25;
         human.isArmenian = true;
         human.gender = 'M';
 
-        Human human1 = new Human();
+        Human1 human1 = new Human1();
         human1.firstName = "Anna";
         human1.lastName = "Petrosyan";
         human1.year = 28;
@@ -36,7 +36,7 @@ public class Lesson1 {
 
         System.out.println("-----------------------------------");
 //        skzbnakan kranq klasin arjeq tanq bayc menq karonx  enq metodi popoxakanov poxenq ira arjeky
-        Human h = new Human();
+        Human1 h = new Human1();
         h.firstName = "Ani";//poxenq skzbnakan arjeqy Aram --> Ani
         System.out.println(h.firstName);
 

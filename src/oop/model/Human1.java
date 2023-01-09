@@ -1,6 +1,6 @@
 package oop.model;
 
-public class Human {
+public class Human1 {
     public String firstName = "Aram";
     public String lastName;
     public int year;
